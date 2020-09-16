@@ -1,0 +1,49 @@
+.bootstrap_chat {
+  background-color: #74EBD5;
+  min-height: 100vh;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.messages-box, .chat-box {
+  -y: scroll;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.themeColor {
+  background-color: #dc5385;
+}
+
+.recieverTheme {
+  background-color: #613C9E;
+}
+
+.sendBtn {
+  border: none;
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.sendBtn:active {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.sendBtn:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.reciverMsg {
+  display: flex;
+  justify-content: flex-end;
+}
+

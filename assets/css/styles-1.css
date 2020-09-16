@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+  .webViewAlert {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .mobileViewAlert {
+    display: none;
+  }
+}
+
+.splashToLogin {
+  display: none;
+}
+
+.marginMenu {
+  padding-right: 1px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+

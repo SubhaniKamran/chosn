@@ -1,0 +1,77 @@
+.clickEffect:hover {
+  box-shadow: 0px 0px 1px 1.5px #F8C4D7;
+}
+
+.clickEffect:hover .bgOption {
+  background-color: #DC3F79 !important;
+}
+
+@media (min-width: 300px) {
+  .congratsImgMobile {
+    width: 360px;
+    height: 381px;
+  }
+}
+
+@media (min-width: 576px) {
+  .congratsImgWeb {
+    width: 575px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 300px) {
+  .congratsBgImgMobile {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+.congratsBgImgWeb {
+}
+
+.horizontalScollBar::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+}
+
+.position_txt {
+  position: absolute;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  z-index: 1;
+}
+
+.searchInput::placeholder {
+  color: white;
+}
+
+.searchInput:focus {
+  border-bottom: none !important;
+  text-indent: 40px;
+  outline: none !important;
+}
+
+.borderTab {
+  border: none;
+}
+
+.activeTab::hover {
+  border-bottom: 1px solid #000000;
+}
+
+.nav-tabs .nav-item {
+  border: none;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border: none;
+}
+
+scrollVertical::-webkit-scrollbar {
+  display: none;
+}
+
